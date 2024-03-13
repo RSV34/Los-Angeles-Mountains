@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    overscroll-behavior: none;
+}
+nav{
+    padding: 10px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+/* nav p{
+    text-decoration: underline;
+} */
+.Logo{
+    height:40px;
+}
+.nav{
+    background-image: url('images/banner1.png');
+    height: 100vh;
+    background-size: cover;
+}
+.link p a{
+    color: aliceblue;
+}
+.text{
+    margin-left: -80px;
+    margin-top: -80px;
+}
+.text p{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100px;
+}
+.nav div .para1{
+    color: #494b4e;
+    font-size: 140px;
+    text-shadow: -1px 1px 0 #fff,
+                1px 1px 0 #fff,
+                1px -1px 0 #fff,
+                -1px -1px 0 #fff;
+}
+.nav div .para2{
+    color:#3e506d;
+    font-size: 160px;
+    text-shadow: -1px 1px 0 #fff,
+                1px 1px 0 #fff,
+                1px -1px 0 #fff,
+                -1px -1px 0 #fff;
+}
+/* nav2 */
+.nav2 p a{
+    color:#3e506d;
+    font-style: italic;
+    font-weight: bold;
+}
+.text1 p{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 5px;
+    margin-top:10px ;
+}
+.text1 .para1{
+    color: #494b4e;
+}
+.text1 .para2{
+    color: #3e506d;
+}
+/* two */
+.two{
+    background-image: url('images/banner2.png');
+    height:130vh;
+    background-size: cover;
+}
+.t21{
+    color: #708090;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style: bold;
+    font-size: 150px;
+}
+.t22{
+    color:#3e506d;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style: bold;
+    font-size: 25px;
+    margin-top: 110px;
+    margin-left: -30px;
+}
+.text2 .Lorem{
+    font-size: 15px;
+    margin-left:100px;
+    margin-top: -50px;
+}
+.text2{
+    width:70%
+}
+.slideshow_container{
+    background-color: #3e506de0;
+    height:40vh;
+    margin-top: auto;
+
+}
+.slideshow_container img{
+    width:300px;
+    height: 200px;
+    margin: 10px 10px;
+}
+.scont{
+    margin:10px 10px;
+    overflow-x: scroll;
+}
+.para3{
+    margin-top: 110px;
+    margin-left:30px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.c2 div{
+
+   margin-left: 7%;
+}
+.c3{
+    font-family: "Bebas Neue", sans-serif;
+    color:aliceblue;
+    background-color: #3e506d;
+}
+.c3 div{
+    width:200px;
+    margin-left: 20%;
+}
+.c3 p{
+    font-size: 21px;
+    margin-bottom: 0px;
+    padding:5px;
+}
+.c3 p:hover{
+    background-color: aliceblue;
+    color: #494b4e;
+    cursor: pointer;
+}
+.c4{
+    
+    color: #3e506d;
+    background-image: url('images/banner3.png');
+    height:90vh;
+    background-size: 100% 90vh;
+    background-repeat: none;
+}
+.schedule{
+    position: relative;
+    top: 20%;
+    left:20%;
+    padding: 1px 20px;
+    font-size: 14px;
+    height: 220px;
+    width: 310px;
+    background-color: #fffc;
+}
+.schedule .s_text{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+}
+.foot_text{
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#foot{
+    color:aliceblue;
+    background-color: #3e506ddd;
+}
+#foot .para1,#foot .para2{
+    color: aliceblue;
+}
+/* .film{
+    position: absolute;
+    bottom: -1735px;
+    width:100%;
+    height:12vh;
+    background-color:#3e506ddd;
+    z-index: 1;
+} */
+
+@media screen and (max-width:1000px) {
+    .nav div .para1{
+        font-size: 120px;
+        text-shadow: -1px 1px 0 #fff,
+        1px 1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px -1px 0 #fff;
+       }
+       .nav div .para2{
+        font-size: 120px;
+        text-shadow: -1px 1px 0 #fff,
+        1px 1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px -1px 0 #fff;
+       }
+       .text{
+        margin-top: 0;
+        margin-left: 0;
+       }
+       .text p{
+        line-height: 70px;
+       }
+       .Lorem{
+        color:aliceblue;
+        background-color: #3e506ddd;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .nav div .para1{
+        font-size: 120px;
+        text-shadow: -1px 1px 0 #fff,
+        1px 1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px -1px 0 #fff;
+       }
+       .nav div .para2{
+        font-size: 120px;
+        text-shadow: -1px 1px 0 #fff,
+        1px 1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px -1px 0 #fff;
+       }
+       .text{
+        margin-top: 0;
+        margin-left: 0;
+       }
+       .text p{
+        line-height: 70px;
+       }
+    .Lorem{
+        color:aliceblue;
+        background-color: #3e506ddd;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+   .nav div .para1{
+    color:aliceblue;
+    font-size: 70px;
+    text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+   }
+   .nav div .para2{
+    color:aliceblue;
+    font-size: 70px;
+    text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+   }
+   .text{
+    margin-top: 0;
+    margin-left: 0;
+   }
+   .text p{
+    line-height: 40px;
+   }
+   .text1 p{
+    display: none;
+   }
+   .link p{
+    font-size: 13px;
+   }
+   .Lorem{
+    margin-left: 0px !important;
+    padding:20px;
+    height:300px;
+    width:200px;
+    background-color: #3e506ddd;
+    color: aliceblue;
+    overflow-y: scroll;
+   }
+   .c2{
+    flex-direction: column;
+   }
+   .c2 .c21{
+    flex-direction: column;
+   }
+   .c2 .c21 .para3{
+    margin-top: -20px;
+   }
+   .schedule{
+    left:0;
+    width:100%;
+    height:auto;
+   }
+}
